@@ -25,7 +25,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
       showDialog(
         context: context,
         builder: (context) {
-          return AlertDialog(
+          return const AlertDialog(
             content: Text('Password link has been sent!!!'),
           );
         },
@@ -52,7 +52,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
+          const Text(
             "Enter your Email to get password reset link",
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 20),
@@ -80,11 +80,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
           ),
           MaterialButton(
             onPressed: passwordReset,
-            child: Text(
+            color: Colors.deepPurpleAccent[100],
+            child: const Text(
               'reset password',
               style: TextStyle(color: Colors.white),
             ),
-            color: Colors.deepPurpleAccent[100],
           ),
         ],
       ),

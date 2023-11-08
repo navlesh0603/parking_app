@@ -11,8 +11,8 @@ class ParkingHomePage extends StatefulWidget {
 
 class _ParkingHomePageState extends State<ParkingHomePage> {
   final List<ParkingLot> _parkingLots = [
-    ParkingLot(name: 'Parking A', totalSpaces: 50, availableSpaces: 25),
-    ParkingLot(name: 'Parking B', totalSpaces: 30, availableSpaces: 20),
+    ParkingLot(name: 'Seasons Mall', totalSpaces: 50, availableSpaces: 25),
+    // ParkingLot(name: 'Parking B', totalSpaces: 30, availableSpaces: 20),
 // Add more parking lots as needed
   ];
 

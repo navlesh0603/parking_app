@@ -6,7 +6,7 @@ class Sidebar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Color.fromARGB(255, 3, 36, 47),
+      backgroundColor: const Color.fromARGB(255, 3, 36, 47),
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[

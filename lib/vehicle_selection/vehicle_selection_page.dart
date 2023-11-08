@@ -45,7 +45,7 @@ class _VehicleSelectionPageState extends State<VehicleSelectionPage> {
                         fontSize: 20,
                       ),
                       labelStyle:
-                          TextStyle(color: Color.fromARGB(255, 227, 3, 3)),
+                          TextStyle(color: Color.fromARGB(255, 14, 3, 227)),
                     ),
                   ),
                   const SizedBox(height: 20),
@@ -57,7 +57,7 @@ class _VehicleSelectionPageState extends State<VehicleSelectionPage> {
                         fontSize: 20,
                       ),
                       labelStyle:
-                          TextStyle(color: Color.fromARGB(255, 235, 8, 8)),
+                          TextStyle(color: Color.fromARGB(255, 0, 14, 208)),
                     ),
                   ),
                   const SizedBox(height: 20),
